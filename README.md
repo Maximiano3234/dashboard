@@ -1,31 +1,13 @@
+Necessário para rodar o Projeto
 <p>
-<label style="text-color:#FB4D4D">Laravel</label>
+Instalar o <a href="https://www.php.net/">PHP 7.4</a> instalar tambem o <a href="https://laravel.com/">Laravel</a>
+o <a href="https://getcomposer.org/">Composer</a> e um Banco de dados... Pode ser o <a href="https://www.apachefriends.org/blog/new_xampp_20191227.html">Xampp 7.4</a> ou o <a href="https://www.mysql.com/downloads/">MySql Workbench</a> 
 </p>
 
 <p>
-<a href="https://laravel.com/">Download</a>
+Depois de instalados o componentes e configurado as vareaveis de ambiente, abra o terminal ou o prompty de comando dentro da pasta do projeto e execute o comando.
 </p>
 
 <p>
-<label style="text-color:#6E68C7">PHP</label>
-</p>
-
-<p>
-<a href="https://www.php.net/">Download</a>
-</p>
-
-<p>
-<label style="text-color:#713E11">Composer</label>
-</p>
-
-<p>
-<a href="https://getcomposer.org/">Download</a>
-</p>
-
-<p>
-<label style="text-color:#FC9032">Xampp</label>
-</p>
-
-<p>
-<a href="https://www.apachefriends.org/pt_br/index.html">Download</a>
+php artisan serve
 </p>
