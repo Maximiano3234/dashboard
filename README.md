@@ -65,4 +65,9 @@ in the browser type.
 ![model1](https://user-images.githubusercontent.com/77732575/127554480-4bffb57a-7569-4e81-8502-f7215b455082.PNG)<br>
 ----------------------------------------------------------------------------------
 create a record saved in the database, and then login.<br>
+<<<<<<< HEAD
 ![dashboard](https://user-images.githubusercontent.com/77732575/127562436-d3131b2c-e4f1-4e8d-99b7-5798965c7e0b.PNG)<br>
+=======
+![dashboard](https://user-images.githubusercontent.com/77732575/127562436-d3131b2c-e4f1-4e8d-99b7-5798965c7e0b.PNG)
+
+>>>>>>> 1a1843c34e2ba168f7ea998e8939178bd3c1cd48
