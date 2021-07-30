@@ -39,7 +39,7 @@ to run the project, install...
 - use a database of your choice...( xampp-7.4 | wamp | workbench )
 - The project is configured for the MySql Server Workbench database
 - To create a new project open the prompt (cmd) and type the command <code>laravel new LaraveCMS</code> to create a new project with the necessary structure of Laravel.
-- configure your database information in the <code>.env</code>
+- Open the project folder with a code editor and configure your database information in the <code>.env</code>
 ----------------------------------------------------------------------------------
 database...<br>
 create a database with the name.<code>laravelcms</code><br>
