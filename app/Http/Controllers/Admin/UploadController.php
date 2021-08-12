@@ -2,21 +2,22 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
 
 class UploadController extends Controller
 {
     public function imageupload(Request $request) {
 
         $request->validate([
-            'file' => 'required|image|mimes:jpeg,jpg,png'
+            'file' => 'required|image|mimes:jpg,jpeg,png',
         ]);
         
-        $ext = $request->file->extension();
-        $imageName = time().'.'.$ext;
+        //$ext = $request->file->extension();
+        //$imageName = time().'.'.$ext;
 
-        //$imageName = time().'.'.$request->file->extension();
+        $imageName = time().'.'.$request->file->extension();
         $request->file->move(public_path('media/images'), $imageName);
 
         return [
